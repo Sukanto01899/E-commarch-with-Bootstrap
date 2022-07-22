@@ -104,19 +104,18 @@
 
                 <div class="input-group ms-4">
                     <input type="text" class="form-control">
-                    <span class="input-group-text bg-warning me-5">SEARCH</span>
+                    <span class="input-group-text bg-warning me-5"><i class="fa-solid fa-magnifying-glass text-light"></i></span>
                   </div>
                    <div class="input-group">
                     <span class="input-group-text ps-4 pe-4">$79.56</span>
-                    <span class="input-group-text bg-warning">$</span>
-                    <span class="input-group-text bg-warning">0.00</span>
+                    <span class="input-group-text bg-warning"><i class="fa-solid fa-cart-shopping text-light"></i></span>
                   </div>
             </div>
        </nav>
       </div>
 
       <!-- Popular Collection -->
-      <div class="popular mb-5">
+      <div class="popular mb-5 w-75 flex-column justify-content-center align-items-center m-auto">
         <h1 class="text-center mt-5 text-warning">Popular Now</h1>
         <ul class="nav justify-content-center align-items-center mt-4 mb-4 w-75 m-auto fw-bold">
             <li class="nav-item ">
@@ -135,7 +134,7 @@
 
 
 
-          <div class="row row-cols-1 row-cols-md-4 g-4 ms-5 me-5 mt-5">
+          <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
             <div class="col">
               <div class="card">
                 <img src="./img/popular-product.png" class="card-img-top" alt="...">
@@ -177,62 +176,187 @@
 
       <!-- Winter Collection -->
 
-      <div class="winter bg-light pt-5 flex-column align-items-center justify-content-center pb-5">
-        <div class="winte-title  text-center">
-            <h1 class="text-warning">New Winter Collection</h1>
-        <p class="mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit.  Provident voluptatum itaque magnam ab sapiente laborum <br> Fugit inventore fugiat quis modi expedita, corrupti, architecto consectetur,<br> ipsam hic maxime eveniet iusto!</p>
-        <button type="button" class="btn btn-outline-warning ps-5 pe-5 text-dark mt-4 ">SHOP NOW</button>
+      <div class="WINTER bg-light">
+        <div class=" w-75 m-auto pt-5 flex-column align-items-center justify-content-center pb-5">
+            <div class="winte-title  text-center">
+                <h1 class="text-warning">New Winter Collection</h1>
+            <p class="mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit.  Provident voluptatum itaque magnam ab sapiente laborum <br> Fugit inventore fugiat quis modi expedita, corrupti, architecto consectetur,<br> ipsam hic maxime eveniet iusto!</p>
+            <button type="button" class="btn btn-outline-warning ps-5 pe-5 text-dark mt-4 ">SHOP NOW</button>
+            </div>
+    
+    
+            <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./img/winter-product.png" class="card-img-top" alt="...">
+                    <div class="card-body d-flex justify-content-between">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text text-warning">$67.99</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./img/winter-product.png" class="card-img-top" alt="...">
+                    <div class="card-body d-flex justify-content-between">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text text-warning">$67.99</p>
+                      </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./img/winter-product.png" class="card-img-top" alt="...">
+                    <div class="card-body d-flex justify-content-between">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text text-warning">$67.99</p>
+                      </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="./img/winter-product.png" class="card-img-top" alt="...">
+                    <div class="card-body d-flex justify-content-between">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text text-warning">$67.99</p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+    
+          </div>
+    
+      </div>
+       <!-- Season Sale Banner -->
+
+       <div class="season-sale bg-dark bg-gradient text-center">
+            <h2 class="text-warning pt-5">SEASON SALE</h2>
+            <H1 class="text-light pb-5">UP TO 70% OFF</H1>
+       </div>
+       
+
+       <!-- Subcribe -->
+       <div class="subcribe bg-light pb-4">
+        <nav class="navbar w-50 m-auto">
+            <div class="container-fluid">
+              <a class="navbar-brand">Subcribe To Newaletter:</a>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Your Email" aria-label="Search">
+                <button class="btn bg-warning" type="submit">Subcribe</button>
+              </form>
+            </div>
+          </nav>
+       </div>
+
+
+       <!-- Full Collection -->
+
+       <div class="collection w-75 m-auto ">
+        <div class="collection-text d-flex align-items-center justify-content-between mt-5">
+            <div class="left-text">
+                <h1 class="text-warning">From Our Collection</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Doloremque temporibus dolore consequatur fugit perferendis eveniet <br> asperiores maiores reiciendis</p>
+            </div>
+            <div class="right-buttom">
+                <button type="button" class="btn btn-outline-warning text-dark">Winter</button>
+                <button type="button" class="btn btn-outline-warning text-dark">Spring</button>
+                <button type="button" class="btn btn-outline-warning text-dark">Summer</button>
+                <button type="button" class="btn btn-outline-warning text-dark">Fall</button>
+            </div>
         </div>
 
-
-        <div class="row row-cols-1 row-cols-md-4 g-4 mt-5 ms-5 me-5">
+        <div class="row row-cols-1 row-cols-md-4 g-4 mt-4">
             <div class="col">
-              <div class="card h-100">
-                <img src="./img/winter-product.png" class="card-img-top" alt="...">
-                <div class="card-body d-flex justify-content-between">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text text-warning">$67.99</p>
+              <div class="card">
+                <img src="./img/popular-product.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Card title</h5>
+                  <p class="card-text text-center text-warning">$89.99</p>
                 </div>
               </div>
             </div>
             <div class="col">
-              <div class="card h-100">
-                <img src="./img/winter-product.png" class="card-img-top" alt="...">
-                <div class="card-body d-flex justify-content-between">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text text-warning">$67.99</p>
-                  </div>
+              <div class="card">
+                <img src="./img/popular-product.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Card title</h5>
+                  <p class="card-text text-center text-warning">$89.99</p>
+                </div>
               </div>
             </div>
             <div class="col">
-              <div class="card h-100">
-                <img src="./img/winter-product.png" class="card-img-top" alt="...">
-                <div class="card-body d-flex justify-content-between">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text text-warning">$67.99</p>
-                  </div>
+              <div class="card">
+                <img src="./img/popular-product.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Card title</h5>
+                  <p class="card-text text-center text-warning">$89.99</p>
+                </div>
               </div>
             </div>
             <div class="col">
-              <div class="card h-100">
-                <img src="./img/winter-product.png" class="card-img-top" alt="...">
-                <div class="card-body d-flex justify-content-between">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text text-warning">$67.99</p>
-                  </div>
+              <div class="card">
+                <img src="./img/popular-product.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Card title</h5>
+                  <p class="card-text text-center text-warning">$89.99</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./img/popular-product.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Card title</h5>
+                  <p class="card-text text-center text-warning">$89.99</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./img/popular-product.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Card title</h5>
+                  <p class="card-text text-center text-warning">$89.99</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./img/popular-product.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Card title</h5>
+                  <p class="card-text text-center text-warning">$89.99</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./img/popular-product.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Card title</h5>
+                  <p class="card-text text-center text-warning">$89.99</p>
+                </div>
               </div>
             </div>
           </div>
-
-      </div>
-
-       <!-- Season Sale Banner -->
-
-       <div class="season-sale bg-dark bg-gradient text-center mt-5">
-            <h2 class="text-warning pt-5">SEASON SALE</h2>
-            <H1 class="text-light pb-5">UP TO 70% OFF</H1>
+          <div class="btnon d-flex justify-content-center">
+            <button type="button" class="btn btn-outline-warning text-dark mt-4 w-25">Show Me More</button>
+          </div>
        </div>
 
+
+       <!-- Story Behind -->
+       <div class="story-behind">
+        <div class="story-img">
+            <img src="./img/story.png" alt="">
+        </div>
+        <div class="story-detail">
+            <h2>Story Behind</h2>
+            <a href="">gavooo</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus doloremque veniam voluptatum. Similique animi sequi consectetur! Commodi, reiciendis id, dolorum, numquam dicta natus recusandae in blanditiis culpa sapiente totam quam.</p>
+            <button>Contact Us</button>
+        </div>
+       </div>
 
     <script src="./JS/bootstrap.bundle.min.js"></script>
 </body>
